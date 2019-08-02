@@ -1,0 +1,109 @@
+:root {
+  --ubuntu: 'Ubuntu', sans-serif;
+  --open-sans: 'Open Sans', sans-serif; 
+
+  --orange-color: #ff6200;
+  --dark-orange-color: #be3600;
+  --white-color: #ffffff;
+  --gray-color: rgba(237, 237, 237, 0.36);
+  --light-gray-color: #878787;
+  --lighter-gray-color: #f6f6f6;
+  --dark-gray-color: #929292;
+  --black-color: #000000;
+  --matt-black-color: #333333;
+  --light-matt-black-color: #222222;
+  --dark-matt-color: #3d3d3d;
+  --darker-black-color: #595959;
+}
+
+.black-text{color:var(--black-color);}
+.orange-text{color: var(--orange-color);}
+
+body{font-family: var(--ubuntu);line-height: normal;}
+a,
+a:hover{text-decoration: none;}
+
+
+/* Container */
+.ct-container{width:980px;max-width:100%;margin:0 auto;padding:0 10px;}
+
+/* Header */
+header{margin-bottom: 45px;}
+
+/* Top Header */
+.top-header{background: var(--orange-color);padding:5px 0;}
+
+.call-us{font-size:15px;text-transform: uppercase;}
+.call-us a span{color: var(--dark-orange-color);margin-right: 5px;}
+.call-us a{color: var(--white-color);}
+
+.login-signup ul{margin: 0;padding: 0;}
+.login-signup ul li{display: inline-block;}
+.login-signup ul li:first-child{margin-right: 10px;}
+.login-signup ul li a{text-transform: uppercase;color: var(--white-color);}
+
+.login-signup ul li.active a,
+.login-signup ul li a:hover{color: var(--dark-orange-color);}
+
+/* Main Header */
+.main-header{background: var(--gray-color);padding:30px 0;}
+.logo a{text-transform: uppercase;font-size: 41px;}
+.main-navigation .navbar{padding:0;}
+.main-navigation .dropdown-toggle::after{display:none;}
+
+.main-navigation .navbar-nav .nav-item{margin:0 13px;}
+.main-navigation .navbar-nav .nav-item .nav-link{text-transform: uppercase;color: var(--matt-black-color);font-size: 13px;border-bottom: 4px solid transparent;padding-left:0;padding-right:0;}
+.main-navigation .navbar-nav .nav-item.active .nav-link{border-bottom-color: var(--orange-color);font-weight: bold;}
+
+.main-navigation .dropdown-menu{min-width: auto;font-size: 12px;border:1px solid rgba(0,0,0,0.38);padding:15px 0;border-radius: 2px;}
+.main-navigation .dropdown-menu ul{list-style:none;margin:0;padding:0;}
+
+.main-navigation .dropdown-menu ul li > .dropdown-item,
+.dropdown-submenu ul li > .dropdown-item{margin-bottom:15px;padding:0 15px;text-transform: uppercase;background: none;}
+
+.main-navigation .dropdown-menu ul li:last-child > .dropdown-item,
+.dropdown-submenu ul li > .dropdown-item{margin-bottom: 0;}
+
+.dropdown-submenu{left:100%;top: -50%;}
+
+/* BreadCrumb */
+.breadcrumb{background:none;padding:0;margin-bottom: 45px;}
+.breadcrumb .breadcrumb-item a{font-size:14px;color: var(--dark-gray-color);}
+.breadcrumb .breadcrumb-item.active {color: var(--light-matt-black-color);}
+
+/* Intro Section */
+.intro-section{margin-bottom: 55px;}
+.intro-section h1{font-family: var(--open-sans);font-weight: bold; font-size: 27px; color: var(--orange-color);margin:0 0 15px;}
+.intro-section p{font-family: var(--ubuntu);font-weight: 300;font-size: 14px;color: var(--light-gray-color);line-height: 19px;}
+
+/* Contact Section */
+.section-heading h2{font-family: var(--open-sans);font-size: 23px;color: var(--orange-color);text-transform: uppercase;border-bottom:6px solid var(--dark-matt-color);padding:0 0 10px;margin:0 0 20px;}
+
+/* Form Section */
+.form-section{width:470px;max-width:100%;}
+.form-section .form-group{margin-bottom:10px;}
+.form-section .form-control{background:var(--lighter-gray-color);border:1px solid rgba(0,0,0,0.07);border-radius:0;font-family: var(--ubuntu);font-weight:300;font-size: 14px; color: var(--light-gray-color);padding:5px 10px;}
+.form-section .row{margin:0 -5px;}
+.form-section .form-group.col{padding:0 5px;}
+.form-section textarea{min-height:110px;max-height:200px;max-width:100%;}
+.form-section .btn{margin-top:20px;background: var(--orange-color);border-radius:0;color: var(--white-color);font-family: var(--open-sans);font-weight: 700;font-size: 13px;text-transform: uppercase;width: 98px;padding:8px 5px;}
+
+/* Location Section */
+.location-section{width:408px;max-width:100%;}
+address{font-family: var(--ubuntu);font-size: 16px;color: var(--darker-black-color);}
+address .venue-name{margin-bottom:10px;}
+address .street-address{margin:0;}
+address .number-section{margin:20px 0 0;}
+address .number-section span{display:block;}
+
+/* Social Links */
+.social-links{margin-top:40px;}
+.social-links ul{list-style: none;margin:0;padding:0;display: flex;}
+.social-links ul li{margin-right: 5px;}
+.social-links ul li:last-child{margin:0;}
+.social-links ul li a{display:flex;align-items:center;justify-content:center;width:33px;height:33px;color: var(--white-color);background: var(--matt-black-color);}
+
+
+
+
+
